@@ -1,0 +1,110 @@
+<!doctype html>
+<html lang="en">
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Windows 8 Ui</title>
+
+	<!-- Stylesheets -->
+	<link rel="stylesheet" type="text/css" href="css/html5reset-1.6.1.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+
+
+	<!-- Working Example 
+	<style type="text/css">
+		.case { 
+			margin: 100px auto;
+			min-width: 420px;
+			width: 75%;
+		}
+		.tile { 
+			float: left;
+			width: 200px;
+			height: 200px;
+			margin: 5px;
+		}
+		.tile .alpha {
+			height: 95px;
+			margin: 0 0 5px 0;
+		}
+		.tile .omega {
+			height: 95px;
+			margin: 5px 0 0 0;
+		}
+		.effect:hover { -webkit-box-shadow:0 0 40px black; cursor: pointer; }
+	</style>
+	-->
+
+</head>
+<body>
+
+
+
+
+<!-- 	<div id="ui" class="case font">
+		<div class="tile t-1">
+			<div class="tile effect alpha green">1</div>
+			<div class="tile effect omega royal-blue"></div>
+		</div>
+		<div class="tile effect t-1 orange">2</div>
+		<div class="tile effect t-1 green">3</div>
+		<div class="tile effect t-1 blue">4</div>
+		<div class="tile effect t-1 red">5</div>
+		<div class="tile t-1">
+			<div class="tile effect alpha orange">6</div>
+			<div class="tile effect omega blue"></div>
+		</div>
+		<div class="tile effect t-1 red">7</div>
+		<div id="tile_debug" class="tile effect t-1 orange">8</div>
+	</div>
+ -->
+
+
+
+	<div id="ui" class="case font">
+		<div class="tile effect t-2 red">1</div>
+		<div class="tile effect t-1 orange">2</div>
+		<div class="tile effect t-1 green">3</div>
+		<div class="tile effect t-2 blue">4</div>
+		<div class="tile effect t-1 red">5</div>
+		<div class="tile effect t-1 royal-blue">6</div>
+		<div class="tile effect t-2 orange">7</div>
+		<div class="tile effect t-1 royal-blue">8</div>
+		<div class="tile effect t-1 green">9</div>
+<!-- 		<div class="tile effect t-1 red">7</div>
+		<div class="tile effect t-1 orange">8</div> -->
+	</div>
+
+
+
+
+
+
+
+
+	<!-- DEBUT AREA -->
+	<p class="clear"/>
+	<br/><br/>
+	<hr/>
+	<button onclick="get_page_dimensions();">
+		PAGE DIMENSIONS
+	</button>
+
+	<button onclick="get_tile_dimensions('ui');">
+		CASE DIMENSIONS
+	</button>
+
+	<button onclick="get_tile_dimensions('tile');">
+		TILE DIMENSIONS
+	</button>
+
+	<button onclick="get_tile_dimensions('half-tile');">
+		HALF TILE DIMENSIONS
+	</button>
+
+
+	<!-- Scripts -->
+	<script src="js/jquery-2.0.3.js"></script>
+	<script src="js/revised.js"></script>
+</body>
+</html>
